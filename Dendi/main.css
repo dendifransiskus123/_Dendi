@@ -1,0 +1,139 @@
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap');
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        .navbar {
+            padding: 20px;
+            background-color: white;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+        }
+        
+        .navbar ul li {
+            margin-left: 40px;
+        }
+        
+        .navbar ul li a {
+            font-weight: 500;
+        }
+        /* swiper  */
+        
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }
+        
+        .jumbotron {
+            padding-bottom: 100px;
+            background-color: #fa6900;
+        }
+        
+        .jumbotron h2::after {
+            content: "";
+            display: block;
+            width: 40px;
+            background-color: white;
+            height: 4px;
+            margin: auto;
+        }
+        
+        .vidio {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .vidio h2 {
+            color: #fa6900;
+        }
+        
+        .vidio h2::after {
+            content: "";
+            display: block;
+            width: 40px;
+            background-color: #fa6900;
+            height: 4px;
+            margin: auto;
+        }
+        
+        .swiper-slide img {
+            border: 5px solid white;
+        }
+        
+        .box {
+            position: relative;
+        }
+        
+        .deskripsi {
+            z-index: 9999;
+            top: 0;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            transition: .3s;
+            border: 4px solid white;
+            background-color: rgba(0, 0, 0, 0.7);
+            opacity: 0;
+        }
+        
+        .deskripsi:hover {
+            opacity: 1;
+        }
+        
+        .swiper-slide img {
+            height: 100%;
+        }
+        
+        .deskripsi h3 {
+            z-index: 9999;
+        }
+        
+        .deskripsi {
+            color: white;
+        }
+        
+        .jumbotron {
+            height: 100vh;
+        }
+        
+        .galeri {
+            padding: 30px;
+        }
+        
+        .about {
+            background-color: #fa6900;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        
+        .about .card {
+            padding: 30px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        
+        .about .card img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            border: 7px solid #fa6900;
+        }
